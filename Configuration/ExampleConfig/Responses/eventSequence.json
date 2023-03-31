@@ -1,0 +1,14 @@
+{
+    "eventSequences": [
+        {
+            "name" :"UserStateEvents",
+            "loopCount" : 100,
+            "events": [
+                {
+                    "TimeOffset" : 1000,
+                    "fileName": "./configuration/exampleconfig/responses/sequence1_event1.json"
+                }
+            ]
+        }
+    ]
+}

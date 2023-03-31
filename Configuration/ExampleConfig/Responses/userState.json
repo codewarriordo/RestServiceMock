@@ -1,0 +1,8 @@
+{
+    "userId": -1,
+    "userStateName": {
+        "%ENUM%": "OutOfOffice,Free,Busy,Meeting"
+    },
+    "isACW": false,
+    "lastPollTime": "%TIMESTAMP%"
+}

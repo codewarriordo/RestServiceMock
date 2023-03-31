@@ -1,0 +1,17 @@
+{
+    "totalRecords": 30,
+    "_links": {
+      "self": "https://localhost"
+    },
+    "userStates": [
+      {
+        "sm_filename": "./configuration/exampleconfig/responses/userState.json",
+        "sm_loopIdMapping" : [
+          {
+            "Identifier" :"userId",
+            "PropertyName" : "userId"
+          }
+        ]
+      }
+    ]
+}

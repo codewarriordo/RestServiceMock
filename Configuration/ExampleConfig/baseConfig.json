@@ -1,0 +1,28 @@
+{
+    "endpoints": [
+        {
+            "path": "/api/V1.0/users",
+            "method": "GET",
+            "responsefile": "./configuration/exampleconfig/responses/userResponse.json"
+        },
+        {
+            "path": "/api/V1.0/users/states",
+            "method": "GET",
+            "responsefile": "./configuration/exampleconfig/responses/userStatesResponse.json"
+        }
+    ],
+    "webhooks": [
+        {
+            "targetUrl": "https://webhook.site/221c3b84-fc23-4d87-a100-d89ad704fb09",
+            "eventSequence": "./configuration/exampleconfig/responses/eventSequence.json"
+        }
+    ],
+    "loopIdentifier": [
+        {
+            "type": "int",
+            "name": "userId",
+            "startValue": 0,
+            "stopValue": 20
+        }
+    ]
+}

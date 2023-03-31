@@ -1,0 +1,9 @@
+{
+    "userId": -1,
+    "userName": "%i%@example.net",
+    "firstName": "FirstName%i%",
+    "lastName": "User%i%",
+    "isActive": true,
+    "teamId": 123456,
+    "teamName": "DefaultTeam"
+}

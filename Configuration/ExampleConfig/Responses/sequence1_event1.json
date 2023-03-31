@@ -1,0 +1,7 @@
+{
+  "userId": -1,
+  "dateTime": "%TIMESTAMP%",
+  "state":{
+    "%ENUM%": "OutOfOffice,Free,Busy,Meeting"
+  }
+}
