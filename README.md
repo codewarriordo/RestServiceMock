@@ -1,6 +1,6 @@
 # RestServiceMock
-REST WebService Mock including Webhook function 
-The main goal of this project was to simulate a service platform to make performance tests of the own depending microservices.
+REST WebService Mock including Webhook / Long polling function \
+The main goal of this project was to simulate a service platform to make performance tests of the own depending microservices.\
 For example you have a microservice which is connected to MS Graph API to monitor MS Teams user states. In the real world it's hard to simulate thousands of users to test the own implementation 
 
 ## Summary
@@ -9,6 +9,7 @@ For example you have a microservice which is connected to MS Graph API to monito
 * JSON responses can include dynamics arrays
 * JSON objects can have dynamic elements like timestamps, enumerations, random integer values
 * Webhook support with configurable event sequences
+* Long polling support with configurable event sequences
 
 ## Configuration
 The current configuration is set with the environment CONFIG_FILE, see launchSettings.json
